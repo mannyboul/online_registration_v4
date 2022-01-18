@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>THE CODE REVIEW</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main-header">
+      <h2 id="letter">THE CODE REVIEW</h2>
+    </header>
+    <main class="main-div">
+      <forum>
+        <div class="signup-div">
+          <h1>Signup for our newsletter</h1>
+          <p class="newsletter-disc">get the latest news on how your code is doing right in your inbox</p>
+        </div>
+        <hr>
+        <fieldset>
+          <div class="forum-div">
+            <legend><h3>Contact Information</h3></legend>
+
+            <div class="contact">
+              <label for="name">Full Name</label>
+              <input placeholder="Required" type="text" id="name" name="user_name" class="contact-input">
+            </div>
+
+            <div class="contact">
+              <label for="email">Email Address</label>
+              <input placeholder="Required" type="email" id="email" name="user_email" class="contact-input">
+            </div>
+
+            <div class="contact">
+              <label for="number">Phone Number</label>
+              <input type="number" id="number" name="user_number" class="contact-input">
+            </div>
+
+            <div class="contact">
+              <label for="street">Street Address</label>
+              <input type="street" id="street" name="user_street" class="contact-input">
+            </div>
+
+            <div class="contact">
+              <label for="city">City Address</label>
+              <input type="city" id="city" name="user_city" class="contact-input">
+            </div>
+
+            <div class="contact">
+              <label for="state">State</label>
+              <select id="state" name="state">
+                <option value=" " disabled selected class="placeholder">Choose State</option>
+                <option value="AL">Alabama (AL)</option>
+                <option value="AK">Alaska (AK)</option>
+                <option value="AZ">Arizona (AZ)</option>
+                <option value="AR">Arkansas (AR)</option>
+                <option value="CA">California (CA)</option>
+                <option value="CO">Colorado (CO)</option>
+                <option value="CT">Connecticut (CT)</option>
+                <option value="DE">Delaware (DE)</option>
+                <option value="DC">District Of Columbia (DC)</option>
+                <option value="FL">Florida (FL)</option>
+                <option value="GA">Georgia (GA)</option>
+                <option value="HI">Hawaii (HI)</option>
+                <option value="ID">Idaho (ID)</option>
+                <option value="IL">Illinois (IL)</option>
+                <option value="IN">Indiana (IN)</option>
+                <option value="IA">Iowa (IA)</option>
+                <option value="KS">Kansas (KS)</option>
+                <option value="KY">Kentucky (KY)</option>
+                <option value="LA">Louisiana (LA)</option>
+                <option value="ME">Maine (ME)</option>
+                <option value="MD">Maryland (MD)</option>
+                <option value="MA">Massachusetts (MA)</option>
+                <option value="MI">Michigan (MI)</option>
+                <option value="MN">Minnesota (MN)</option>
+                <option value="MS">Mississippi (MS)</option>
+                <option value="MO">Missouri (MO)</option>
+                <option value="MT">Montana (MT)</option>
+                <option value="NE">Nebraska (NE)</option>
+                <option value="NV">Nevada (NV)</option>
+                <option value="NH">New Hampshire (NH)</option>
+                <option value="NJ">New Jersey (NJ)</option>
+                <option value="NM">New Mexico (NM)</option>
+                <option value="NY">New York (NY)</option>
+                <option value="NC">North Carolina (NC)</option>
+                <option value="ND">North Dakota (ND)</option>
+                <option value="OH">Ohio (OH)</option>
+                <option value="OK">Oklahoma (OK)</option>
+                <option value="OR">Oregon (OR)</option>
+                <option value="PA">Pennsylvania (PA)</option>
+                <option value="RI">Rhode Island (RI)</option>
+                <option value="SC">South Carolina (SC)</option>
+                <option value="SD">South Dakota (SD)</option>
+                <option value="TN">Tennessee (TN)</option>
+                <option value="TX">Texas (TX)</option>
+                <option value="UT">Utah (UT)</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+            </div>
+          <div class="contact">
+            <label for="zip">Zip Code</label>
+            <input type="zip" id="zip" name="user_zip" class="contact-input">
+          </div>
+          </div>
+          <hr>
+          <div class="newsletter-div">
+            <legend><h3>Newsletter</h3></legend>
+            
+            <p class="news-disc">Select the newsletters you would like to receive<p>
+
+            <div class="box">
+              <input type="checkbox" id="news-html" name="user_interest" class="news-input">
+              <label for="news-html">HTML News</label>
+            </div>
+
+            <div class="box">
+              <input type="checkbox" id="CSS" name="user_interest" class="news-input">
+              <label for="CSS">CSS News</label>
+            </div>
+
+            <div class="box">
+              <input type="checkbox" id="javascript" name="user_interest" class="news-input">
+              <label for="business">Javascript News</label>
+            </div>
+
+            <p class="news-disc">Newsletter format<p>
+            
+            <div class="box">
+              <input type="radio" id="html" name="type" class="news-input"> 
+              <label for="format">HTML</label>
+            </div>
+
+            <div class="box">
+              <input type="radio" id="plain" name="type" class="news-input"> 
+              <label for="plain">Plain text</label>
+            </div>
+            
+            <div class="box" id="text-area">
+              <p>Other topics you'd like to hear about?</p>
+              <textarea id="topics" name="topics" class="news-textarea"></textarea>
+            </div>
+          </div>
+        </fieldset>
+      </forum>
+        <button type="button">Sign Up</button>
+        <footer>
+          <p>Copyright The Code Review</p>
+        </footer>
+    </main>
+  </body>
+</html>
