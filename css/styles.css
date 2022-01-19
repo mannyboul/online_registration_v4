@@ -52,7 +52,7 @@ fieldset {
   font-style: italic;
 }
 input[id="zip"] {
-  width: 15vh;
+  max-width: 15vh;
 }
 .contact, .box {
   display: flex;
@@ -98,8 +98,10 @@ button {
   text-align: center;
   border-radius: 10px;
   color: white;
-  text-decoration: bold;
   font-weight: 600;
+}
+:focus {
+  outline: 6px solid lightgreen;
 }
 footer p {
   color: rgb(128, 128, 128);
