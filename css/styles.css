@@ -51,6 +51,10 @@ fieldset {
   text-align: right;
   font-style: italic;
 }
+input[id="number"]::placeholder, input[id="street"]::placeholder, input[id="city"]::placeholder, input[id="zip"]::placeholder, textarea[id="topic"]::placeholder {
+  text-align: left;
+  color: rgb(182, 182, 182);
+}
 input[id="zip"] {
   max-width: 15vh;
 }
