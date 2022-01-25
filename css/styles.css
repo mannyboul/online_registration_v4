@@ -80,6 +80,11 @@ input[id="zip"] {
 label[for="plain"] {
   margin-bottom: 1rem;
 }
+label[for="topics"] {
+  display: block;
+  width: 400px;
+  padding-bottom: 1rem;
+}
 #text-area {
   flex-direction: column;
 }
@@ -116,9 +121,15 @@ footer p {
   .contact {
     flex-direction: row;
   }
+  input[id="zip"] {
+    max-width: 30vh;
+  }
 }
 @media (min-width: 1024px) {
   .main-div {
     padding: 0 35vh;
+  }
+  input[id="zip"] {
+    max-width: 50vh;
   }
 }

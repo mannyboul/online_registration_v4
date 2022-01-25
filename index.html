@@ -16,7 +16,7 @@
     <main class="main-div">
         <div class="signup-div">
           <h1>Signup for our newsletter</h1>
-          <p class="newsletter-disc">get the latest news on how your code is doing right in your inbox</p>
+          <p class="newsletter-disc">Get the latest news on how your code is doing right in your inbox</p>
         </div>
         <hr>
         <div class="forum-div">
@@ -25,27 +25,27 @@
               <legend><h3>Contact Information</h3></legend>
 
               <div class="contact">
-                <label for="name">Full Name</label>
+                <label for="user_name">Full Name</label>
                 <input placeholder="Required" type="text" id="name" name="user_name" class="contact-input">
               </div>
 
               <div class="contact">
-                <label for="email">Email Address</label>
+                <label for="user_email">Email Address</label>
                 <input placeholder="Required" type="email" id="email" name="user_email" class="contact-input">
               </div>
 
               <div class="contact">
-                <label for="number">Phone Number</label>
+                <label for="user_number">Phone Number</label>
                 <input type="tel" id="number" name="user_number" class="contact-input">
               </div>
 
               <div class="contact">
-                <label for="street">Street Address</label>
+                <label for="user_street">Street Address</label>
                 <input type="text" id="street" name="user_street" class="contact-input">
               </div>
 
               <div class="contact">
-                <label for="city">City Address</label>
+                <label for="user_city">City</label>
                 <input type="text" id="city" name="user_city" class="contact-input">
               </div>
 
@@ -107,7 +107,7 @@
                 </select>
               </div>
               <div class="contact">
-                <label for="zip">Zip Code</label>
+                <label for="user_zip">Zip Code</label>
                 <input type="number" id="zip" name="user_zip" class="contact-input">
               </div>
             </fieldset>
@@ -119,35 +119,35 @@
                 <p class="news-disc">Select the newsletters you would like to receive<p>
 
                 <div class="box">
-                  <input type="checkbox" id="news-html" name="user_interest" class="news-input">
-                  <label for="news-html">HTML News</label>
+                  <input type="checkbox" id="news-html" name="user_interests" class="news-input">
+                  <label for="user_interests">HTML News</label>
                 </div>
 
                 <div class="box">
-                  <input type="checkbox" id="CSS" name="user_interest" class="news-input">
-                  <label for="CSS">CSS News</label>
+                  <input type="checkbox" id="CSS" name="user_interests" class="news-input">
+                  <label for="user_interests">CSS News</label>
                 </div>
 
                 <div class="box">
-                  <input type="checkbox" id="javascript" name="user_interest" class="news-input">
-                  <label for="javascript">Javascript News</label>
+                  <input type="checkbox" id="javascript" name="user_interests" class="news-input">
+                  <label for="user_interests">Javascript News</label>
                 </div>
 
                 <p class="news-disc">Newsletter format<p>
                 
                 <div class="box">
                   <input type="radio" id="html" name="type" class="news-input"> 
-                  <label for="html">HTML</label>
+                  <label for="type">HTML</label>
                 </div>
 
                 <div class="box">
-                  <input type="radio" id="plain" name="type" class="news-input"> 
-                  <label for="plain">Plain text</label>
+                  <input type="radio" id="plain" name="text" class="news-input"> 
+                  <label for="text">Plain text</label>
                 </div>
                 
                 <div class="box" id="text-area">
-                  <p>Other topics you'd like to hear about?</p>
-                  <textarea id="topics" name="topics" class="news-textarea"></textarea>
+                  <label for="topics">Other topics you'd like to hear about</label>
+                  <textarea id="topic" name="topics" class="news-textarea"></textarea>
                 </div>
               </fieldset>
             </div>
