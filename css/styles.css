@@ -106,6 +106,13 @@ button {
   border-radius: 10px;
   color: white;
   font-weight: 600;
+  transition-property: background;
+  transition-duration: .5s;
+  transition: ease-in-out;
+}
+button:hover {
+  background: rgb(67, 95, 143);
+
 }
 :focus {
   outline: 6px solid lightgreen;
